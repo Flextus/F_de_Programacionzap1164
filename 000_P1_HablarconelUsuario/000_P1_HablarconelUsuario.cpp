@@ -1,19 +1,43 @@
-// 000_P1_HablarconelUsuario.cpp : Este archivo contiene la función "main". La ejecución del programa comienza y termina ahí.
-//
+// 000_P1_HablarconelUsuario.cpp : 
+// Benjamin Sepulveda    
+// Hablaremos con el usuario 
+// Utilizando la libreria IOStream
 
-#include <iostream>
+#include <iostream>// Chat
+#include <locale.h>// Localizacion de idioma, para usar caracteres unicos de cada idioma se debe agregar esta libreria.
 
-int main()
+
+int main()//(int) define mi tipo de variable, mientras que (main) me indica que esta es la funcion principal
 {
-    std::cout << "Hello World!\n";
-}
+    setlocale(LC_ALL, "es_MX.UTF-8"); //Comando para establecer el uso de la libreria "locale", se especifica el idioma y region (es, MX) y se agrega el protocolo (.UTF-8), el estandar moderno suele ser (.86)
 
-// Ejecutar programa: Ctrl + F5 o menú Depurar > Iniciar sin depurar
-// Depurar programa: F5 o menú Depurar > Iniciar depuración
+    std::cout << "Every dark, has it souls!\n-John Dark " <<
+                 "Souls\n ñ by the way" <<std::endl;  // El (\n) es un salto de linea, (endl) tambien lo es, (<<) Concatenara el texto (lo une)
+    std::cout << "Joder\n"; //(cout) es el comando que indica que vamos a tener una salida de personajes, (std) inicia la comunicacion con el usuario siendo esta en protocolo estandarizado global
+    std::cout << "(⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣤⣶⠂⠀⠀⠀⠀"<<⠀⠀⠀⠀
+⠀⠀⠀"⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣾⣿⠀⠀⠀⠀⠀⠀⣠⢾⣿⣿⡟⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⠞⢻⣿⣿⠏⠀⠀⠀⠀⣠⠞⠁⢸⣿⣿⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡞⠁⠀⢸⣿⡟⠀⠀⠀⢀⡾⠁⠀⠀⢸⡿⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⠋⠀⠀⠀⣸⠟⠀⠀⠀⣠⠟⠀⠀⠀⢀⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡼⣁⣠⠤⠶⠒⠛⠶⠦⢤⣴⠃⠀⠀⠀⣠⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⡾⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠃⠀⠀⣠⠞⠁⠀⠀⠀⠀⠀⠀⡀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡞⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠰⣯⠀⠀⠀⠀⠀⣀⡴⠚⢻⣄⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⣾⢰⡖⣆⠀⠀⠀⠀⠀⡖⠺⣷⡀⠀⠀⠀⢸⡆⠀⣀⡴⠚⠁⠀⠈⠢⡊⢷⡀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⡇⠸⣿⠇⢀⠀⠀⠀⠀⠻⢿⣿⠇⠀⠀⠀⠀⡷⠞⠁⠀⠀⠀⠀⠀⠀⠈⠀⠙⢦⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡿⢆⠀⠀⠀⠈⠁⠀⠀⠀⠀⠀⡴⠉⠉⢢⠀⠀⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢳⡄⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢷⡼⠀⠀⠈⠉⠉⠉⠁⠀⠀⠀⠱⢤⡠⠎⠀⢠⡇⠀⠀⠀⠀⠀⠀⠀⠀⢀⣠⠴⠚⠉⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠈⠳⣄⠀⠀⠀⠀⠀⢀⠀⠀⠀⠀⠀⠀⠀⣠⡿⣤⡀⠀⢀⠀⠀⢠⡴⠚⠉⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⡷⢤⡴⢚⡉⠉⠉⠙⠳⣄⠀⣀⡚⠁⠙⣦⠉⠳⢤⡁⠢⠀⢙⡦⢤⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⡧⡀⢠⢾⡁⠀⠀⠀⡀⣽⣠⠟⠛⠂⠀⣾⢀⡤⢞⡧⠀⠀⠈⠉⠙⢦⣠⢴⡄⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣽⠧⣼⢿⡷⢿⣾⣿⣿⣿⣿⣿⡆⣠⡶⣷⡋⠙⠁⠀⢀⣀⡤⠶⠚⠋⠉⠿⠗⢀⢤
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢠⡇⢀⣠⣾⣶⠶⢿⣿⣿⣿⣿⣿⣿⢯⡇⠈⠙⢦⡀⠀⠙⢦⡀⠀⠀⠀⠀⠀⠀⠸⠜
+⠀⠀⠀⠀⠀⠀⢀⣠⠤⢤⣾⣻⣿⡛⠭⠝⣿⣕⠼⢿⣿⣿⣿⡟⣴⣿⠀⣠⡴⠋⠀⠀⠀⣹⣦⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⣠⠶⠞⠛⢚⠳⠮⣄⡚⢿⣦⣤⣴⠟⢻⡆⢸⣿⣿⣿⣟⡎⢹⠛⠉⣻⣦⠴⠖⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⣠⢞⣅⡀⠀⣾⣿⣷⠀⠀⠙⣦⠈⢿⠃⣉⣽⣗⡾⠿⠛⢻⣿⣷⡿⠞⠋⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⣰⠳⣿⣿⣯⠀⠙⠛⠋⣠⣶⡄⠈⣧⠘⡗⣯⣽⣟⠁⠀⠂⠀⠹⣿⣷⣦⣤⣀⣀⣀⣀⣀⣀⠀⠀⠀⠀⠀⠀⠀⠀
+⡏⠀⣉⣍⠉⠀⠀⠀⠘⣿⣿⡿⠀⢸⡗⣿⠏⠀⠉⠉⠛⠒⢶⠺⣯⣿⠛⠿⠿⠿⠿⢿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀
+⡇⣼⣿⣿⡃⠀⠀⠀⠀⣠⣤⣄⠀⢸⣷⠃⠀⠀⠀⠀⠀⠀⠈⠙⠓⠏⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠹⣜⠛⠛⢃⣴⣶⣆⢸⣿⣿⣿⢀⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠙⢦⡀⠘⢿⣿⠿⠀⠈⠉⣠⠞⠃⠀
+⠀⠀⠀⠉⠓⠦⠤⠤⠤⠶⠛⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
 
-// Sugerencias para primeros pasos: 1. Use la ventana del Explorador de soluciones para agregar y administrar archivos
-//   2. Use la ventana de Team Explorer para conectar con el control de código fuente
-//   3. Use la ventana de salida para ver la salida de compilación y otros mensajes
-//   4. Use la ventana Lista de errores para ver los errores
-//   5. Vaya a Proyecto > Agregar nuevo elemento para crear nuevos archivos de código, o a Proyecto > Agregar elemento existente para agregar archivos de código existentes al proyecto
-//   6. En el futuro, para volver a abrir este proyecto, vaya a Archivo > Abrir > Proyecto y seleccione el archivo .sln
