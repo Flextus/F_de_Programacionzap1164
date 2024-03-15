@@ -4,7 +4,6 @@
 #include <iostream>
 #include <locale.h>
 #include <string>
-using namespace std::range_format;
 
 int main()
 {   
@@ -68,12 +67,13 @@ int main()
 
 //string
 
-        string Saludo = "Hola Usuario"; //string se utiliza para cadenas de caracteres 
+        std::string Saludo = "Hola Usuario"; //string se utiliza para cadenas de caracteres 
 
 //Imprimimos el valor de string
+        std::cout << Saludo << std::endl;
         std::cout << "Saludame " << std::endl;
-        std::cin <<Saludo<< std::endl;
-        std::cout<<Saludo<<std::endl:
+        std::cin >> Saludo;
+        std::cout << Saludo << std::endl;
 
 
 
