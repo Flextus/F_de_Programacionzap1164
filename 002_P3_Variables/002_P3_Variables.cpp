@@ -3,6 +3,8 @@
 
 #include <iostream>
 #include <locale.h>
+#include <string>
+using namespace std::range_format;
 
 int main()
 {   
@@ -51,7 +53,7 @@ int main()
         std::cout << "Tu letra favorita es " << letrafav << std::endl;//Si quieres mostrar un valor acsii, no se puede editar desde aqui, deberas ingresarlo desde que se declara la variable
         
         char favacsii = 89; //89 es "Y" en acsii
-        std::cout << "Tu letra favorita es " << favacsii<< std::endl;
+        std::cout << "Tu letra favorita es " << favacsii<< std::endl; 
 
 
 //double
@@ -61,11 +63,22 @@ int main()
 //Imprimimos el valor de double
         std::cout << "Los digitos de Pi son " << Pi << " ?" << std::endl;
         std::cin >> Pi;
-        std::cout << "No, los digitos de Pi son " << Pi << std::endl; */
+        std::cout << "No, los digitos de Pi son " << Pi << std::endl;  */
 
 
 //string
 
-        s
+        string Saludo = "Hola Usuario"; //string se utiliza para cadenas de caracteres 
+
+//Imprimimos el valor de string
+        std::cout << "Saludame " << std::endl;
+        std::cin <<Saludo<< std::endl;
+        std::cout<<Saludo<<std::endl:
+
+
+
+
+
+
 }
 
