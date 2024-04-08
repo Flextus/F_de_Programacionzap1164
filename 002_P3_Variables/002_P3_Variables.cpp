@@ -13,7 +13,7 @@ int main()
  //Tipo de dato + Nombre de la variable + Declaracion Inicial
  
 //bool    
- /*       bool bandera = false; //bool es una variable binaria, asi que puede ser true or false (1/0)
+ /*     bool bandera = false; //bool es una variable binaria, asi que puede ser true or false (1/0)
         bool bandera2= true;
 
 //Imprimimos el valor de la bandera 
@@ -78,9 +78,9 @@ int main()
 
 //Operaciones aritmeticas 
 
-//int
-        short int factor1 = 0;
-        short int factor2 = 0; 
+//float 
+ /*     float factor1 = 0;
+        float factor2 = 0; 
         
 
         
@@ -88,33 +88,128 @@ int main()
         std::cout << "Ingresa los numeros a sumar" << std::endl;
         std::cin >> factor1;
         std::cin >> factor2;
-        short int respsuma = factor1 + factor2;
+        float respsuma = factor1 + factor2;
         std::cout << "La suma es " << respsuma << std::endl;
 
         std::cout << "Ingresa los numeros a restar" << std::endl;
         std::cin >> factor1;
         std::cin >> factor2;
-        short int respresta = factor1 - factor2;
+        float respresta = factor1 - factor2;
         std::cout << "La resta es " << respresta << std::endl;
 
 
         std::cout << "Ingresa los numeros a multiplicar" << std::endl;
         std::cin >> factor1;
         std::cin >> factor2;
-        short int respmult = factor1 * factor2;
+        float respmult = factor1 * factor2;
         std::cout << "El producto es " << respmult << std::endl;
 
         std::cout << "Ingresa los numeros a dividir" << std::endl;
         std::cin >> factor1;
         std::cin >> factor2;
-        short int respdiv = factor1 / factor2;
-        std::cout << "El cociente es " << respdiv << std::endl;  //No es posible obtener numeros decimales con la variable int
+        float respdiv = factor1 / factor2;
+        std::cout << "El cociente es " << respdiv << std::endl;  
 
-        std::cout << "Ingresa el numero a elevar" << std::endl;
+        std::cout << "Ingresa el numero a elevar al cuadrado" << std::endl;
         std::cin >> factor1;
-        short int respelev;
-        std::cout << factor1 << " al cuadrado es " << respelev << std::endl;
+        float respelev = factor1 * factor1;
+        std::cout << factor1 << " al cuadrado es " << respelev  << std::endl;     
+
+        std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
+        std::cin >> factor1;
+        float cuad1 = sqrt(factor1);
+        std::cout << "La Raiz Cuadrada de " << factor1 << " es " << cuad1 << std::endl;
+        */
 
 
+
+//int
+
+/*
+        short int factor3 = 0;
+        short int factor4 = 0;
+
+
+//En caso de ingresar una variable incorrecta (decimales) el codigo se seguira ejecutando, pero de manera erronea
+
+        std::cout << "Ingresa los numeros a sumar" << std::endl;
+        std::cin >> factor3;
+        std::cin >> factor4;
+        short int sumint = factor3 + factor4;
+        std::cout << "La suma es " << sumint << std::endl;
+
+        std::cout << "Ingresa los numeros a restar" << std::endl;
+        std::cin >> factor3;
+        std::cin >> factor4;
+        short int resint = factor3 - factor4;
+        std::cout << "La resta es " << resint << std::endl;
+
+
+        std::cout << "Ingresa los numeros a multiplicar" << std::endl;
+        std::cin >> factor3;
+        std::cin >> factor4;
+        short int prodint = factor3 * factor4;
+        std::cout << "El producto es " << prodint << std::endl;
+
+        std::cout << "Ingresa los numeros a dividir" << std::endl;
+        std::cin >> factor3;
+        std::cin >> factor4;
+        short int divint = factor3 / factor4;
+        std::cout << "El cociente es " << divint << std::endl;  //No es posible obtener numeros decimales con la variable int
+
+        std::cout << "Ingresa el numero a elevar al cuadrado" << std::endl;
+        std::cin >> factor3;
+        float elevint = factor3 * factor3;
+        std::cout << factor3 << " al cuadrado es " << elevint << std::endl;
+
+        std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
+        std::cin >> factor3;
+        float cuad2 = sqrt(factor3);
+        std::cout << "La Raiz Cuadrada de " << factor3 << " es " << cuad2 << std::endl; */
+
+
+//bool
+
+
+        bool factor5 = 0;
+        bool factor6 = 0;
+
+
+
+
+        std::cout << "Ingresa los numeros a sumar" << std::endl;
+        std::cin >> factor5;
+        std::cin >> factor6;
+        bool sumbool = factor5 + factor6;
+        std::cout << "La suma es " << sumbool << std::endl;
+
+        std::cout << "Ingresa los numeros a restar" << std::endl;
+        std::cin >> factor5;
+        std::cin >> factor6;
+        bool resbool = factor5 - factor6;
+        std::cout << "La resta es " << resbool << std::endl;
+
+
+        std::cout << "Ingresa los numeros a multiplicar" << std::endl;
+        std::cin >> factor5;
+        std::cin >> factor6;
+        bool prodbool = factor5 * factor6;
+        std::cout << "El producto es " << prodbool << std::endl;
+
+        std::cout << "Ingresa los numeros a dividir" << std::endl;
+        std::cin >> factor5;
+        std::cin >> factor6;
+        bool divbool = factor5 / factor6;
+        std::cout << "El cociente es " << divbool << std::endl;
+
+        std::cout << "Ingresa el numero a elevar al cuadrado" << std::endl;
+        std::cin >> factor5;
+        bool elebool = factor5 * factor5;
+        std::cout << factor5 << " al cuadrado es " << elebool << std::endl; 
+
+        std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
+        std::cin >> factor5;
+        bool cuad3 = sqrt(factor5);
+        std::cout << "La Raiz Cuadrada de " << factor5 << " es " << cuad3 << std::endl;
 }
 
