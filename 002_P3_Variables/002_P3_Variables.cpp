@@ -62,7 +62,7 @@ int main()
 //Imprimimos el valor de double
         std::cout << "Los digitos de Pi son " << Pi << " ?" << std::endl;
         std::cin >> Pi;
-        std::cout << "No, los digitos de Pi son " << Pi << std::endl;  */
+        std::cout << "No, los digitos de Pi son " << Pi << std::endl;  
 
 
 //string
@@ -73,11 +73,47 @@ int main()
         std::cout << Saludo << std::endl;
         std::cout << "Saludame " << std::endl;
         std::cin >> Saludo;
-        std::cout << Saludo << std::endl;
+        std::cout << Saludo << std::endl;     */
 
 
+//Operaciones aritmeticas 
+
+//int
+        short int factor1 = 0;
+        short int factor2 = 0; 
+        
+
+        
+
+        std::cout << "Ingresa los numeros a sumar" << std::endl;
+        std::cin >> factor1;
+        std::cin >> factor2;
+        short int respsuma = factor1 + factor2;
+        std::cout << "La suma es " << respsuma << std::endl;
+
+        std::cout << "Ingresa los numeros a restar" << std::endl;
+        std::cin >> factor1;
+        std::cin >> factor2;
+        short int respresta = factor1 - factor2;
+        std::cout << "La resta es " << respresta << std::endl;
 
 
+        std::cout << "Ingresa los numeros a multiplicar" << std::endl;
+        std::cin >> factor1;
+        std::cin >> factor2;
+        short int respmult = factor1 * factor2;
+        std::cout << "El producto es " << respmult << std::endl;
+
+        std::cout << "Ingresa los numeros a dividir" << std::endl;
+        std::cin >> factor1;
+        std::cin >> factor2;
+        short int respdiv = factor1 / factor2;
+        std::cout << "El cociente es " << respdiv << std::endl;  //No es posible obtener numeros decimales con la variable int
+
+        std::cout << "Ingresa el numero a elevar" << std::endl;
+        std::cin >> factor1;
+        short int respelev;
+        std::cout << factor1 << " al cuadrado es " << respelev << std::endl;
 
 
 }
