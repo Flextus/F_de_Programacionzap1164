@@ -165,7 +165,7 @@ int main()
         std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
         std::cin >> factor3;
         float cuad2 = sqrt(factor3);
-        std::cout << "La Raiz Cuadrada de " << factor3 << " es " << cuad2 << std::endl; */
+        std::cout << "La Raiz Cuadrada de " << factor3 << " es " << cuad2 << std::endl; 
 
 
 //bool
@@ -206,6 +206,46 @@ int main()
         std::cin >> factor5;
         bool elebool = factor5 * factor5;
         std::cout << factor5 << " al cuadrado es " << elebool << std::endl; 
+
+        std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
+        std::cin >> factor5;
+        bool cuad3 = sqrt(factor5);
+        std::cout << "La Raiz Cuadrada de " << factor5 << " es " << cuad3 << std::endl;
+        */
+
+//char
+        
+        char factor7 = 1;
+        char factor8 = 1;
+        char space1 = 32;
+
+        std::cout << "Ingresa los caracteres a sumar" << std::endl;
+        std::cin >> factor7;
+        std::cin >> factor8;
+        char sumchar = factor7 >> space1 << factor8;
+        std::cout << "La suma es " << sumchar << std::endl;
+
+        std::cout << "Ingresa los caracteres a restar" << std::endl;
+        char reschar = sumchar - factor7;
+        std::cout << "La resta es " << reschar << std::endl;
+
+
+        std::cout << "Ingresa los numeros a multiplicar" << std::endl;
+        std::cin >> factor5;
+        std::cin >> factor6;
+        bool prodbool = factor5 * factor6;
+        std::cout << "El producto es " << prodbool << std::endl;
+
+        std::cout << "Ingresa los numeros a dividir" << std::endl;
+        std::cin >> factor5;
+        std::cin >> factor6;
+        bool divbool = factor5 / factor6;
+        std::cout << "El cociente es " << divbool << std::endl;
+
+        std::cout << "Ingresa el numero a elevar al cuadrado" << std::endl;
+        std::cin >> factor5;
+        bool elebool = factor5 * factor5;
+        std::cout << factor5 << " al cuadrado es " << elebool << std::endl;
 
         std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
         std::cin >> factor5;
