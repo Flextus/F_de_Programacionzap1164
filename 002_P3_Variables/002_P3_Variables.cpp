@@ -171,8 +171,8 @@ int main()
 //bool
 
 
-        bool factor5 = 0;
-        bool factor6 = 0;
+        bool factor5 = 1;
+        bool factor6 = 1;
 
 
 
