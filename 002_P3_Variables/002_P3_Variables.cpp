@@ -13,7 +13,7 @@ int main()
  //Tipo de dato + Nombre de la variable + Declaracion Inicial
  
 //bool    
- /*     bool bandera = false; //bool es una variable binaria, asi que puede ser true or false (1/0)
+ /*   bool bandera = false; //bool es una variable binaria, asi que puede ser true or false (1/0)
         bool bandera2= true;
 
 //Imprimimos el valor de la bandera 
@@ -213,43 +213,40 @@ int main()
         std::cout << "La Raiz Cuadrada de " << factor5 << " es " << cuad3 << std::endl;
         */
 
-//char
+//char 
         
-        char factor7 = 1;
-        char factor8 = 1;
-        char space1 = 32;
+        char factor7 = 'x', factor8 = 'y', space1 = ' ', factor9 = '';     //Comilla simple (') es para texto
+                                                              //Comilla doble (") es para ACSII
 
-        std::cout << "Ingresa los caracteres a sumar" << std::endl;
+        std::cout << factor7 << space1 << factor8 << std::endl;
+        factor7 = factor7 + 1;
+        factor8 = factor8 - 1;
+        std::cout << factor7 << space1 << factor8 << std::endl;
+        factor7 = factor7 * 1;
+        factor8 = factor8 / 2;
+        std::cout << factor7 << space1 << factor8 << std::endl;
+
+        
+    
+
+
+     /*   std::cout << "Ingresa los numeros a multiplicar" << std::endl;
         std::cin >> factor7;
         std::cin >> factor8;
-        char sumchar = factor7 >> space1 << factor8;
-        std::cout << "La suma es " << sumchar << std::endl;
-
-        std::cout << "Ingresa los caracteres a restar" << std::endl;
-        char reschar = sumchar - factor7;
-        std::cout << "La resta es " << reschar << std::endl;
-
-
-        std::cout << "Ingresa los numeros a multiplicar" << std::endl;
-        std::cin >> factor5;
-        std::cin >> factor6;
-        bool prodbool = factor5 * factor6;
-        std::cout << "El producto es " << prodbool << std::endl;
+        char prodchar = factor7 * factor8;
+        std::cout << "El producto es " << prodchar << std::endl;
 
         std::cout << "Ingresa los numeros a dividir" << std::endl;
-        std::cin >> factor5;
-        std::cin >> factor6;
-        bool divbool = factor5 / factor6;
-        std::cout << "El cociente es " << divbool << std::endl;
+        char divchar = prodchar / factor7;
+        std::cout << "El cociente es " << prodchar << std::endl;
 
         std::cout << "Ingresa el numero a elevar al cuadrado" << std::endl;
-        std::cin >> factor5;
-        bool elebool = factor5 * factor5;
-        std::cout << factor5 << " al cuadrado es " << elebool << std::endl;
+        std::cin >> factor7;
+        char elechar = factor7 * factor7;
+        std::cout << factor7 << " al cuadrado es " << elechar << std::endl;
 
         std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
-        std::cin >> factor5;
-        bool cuad3 = sqrt(factor5);
-        std::cout << "La Raiz Cuadrada de " << factor5 << " es " << cuad3 << std::endl;
+        char cuad4 = sqrt(elechar)
+        std::cout << "La Raiz Cuadrada de " << elechar << " es " << cuad4 << std::endl; */
 }
 
