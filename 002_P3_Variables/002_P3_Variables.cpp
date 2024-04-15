@@ -79,13 +79,13 @@ int main()
 //Operaciones aritmeticas 
 
 //float 
-        float factor1 = 0;
-        float factor2 = 0; 
+        float factor1 = 1;
+        float factor2 = 1; 
         
 
         
 
-        std::cout << "Ingresa los numeros a sumar" << std::endl;
+        std::cout << "Ingresa los numeros a sumar (float)" << std::endl;
         std::cin >> factor1;
         std::cin >> factor2;
         float respsuma = factor1 + factor2;
@@ -126,13 +126,13 @@ int main()
 //int
 
 
-        short int factor3 = 0;
-        short int factor4 = 0;
+        short int factor3 = 1;
+        short int factor4 = 1;
 
 
 //En caso de ingresar una variable incorrecta (decimales) el codigo se seguira ejecutando, pero de manera erronea
 
-        std::cout << "Ingresa los numeros a sumar" << std::endl;
+        std::cout << "Ingresa los numeros a sumar (int)" << std::endl;
         std::cin >> factor3;
         std::cin >> factor4;
         short int sumint = factor3 + factor4;
@@ -177,7 +177,7 @@ int main()
 
 
 
-        std::cout << "Ingresa los numeros a sumar" << std::endl;
+        std::cout << "Ingresa los numeros a sumar (bool)" << std::endl;
         std::cin >> factor5;
         std::cin >> factor6;
         bool sumbool = factor5 + factor6;
@@ -207,11 +207,11 @@ int main()
         bool elebool = factor5 * factor5;
         std::cout << factor5 << " al cuadrado es " << elebool << std::endl; 
 
-        std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
+     /* std::cout << "A que numero le quieres sacar la raiz cuadrada?" << std::endl;
         std::cin >> factor5;
         bool cuad3 = sqrt(factor5);
-        std::cout << "La Raiz Cuadrada de " << factor5 << " es " << cuad3 << std::endl;
-        
+        std::cout << "La Raiz Cuadrada de " << factor5 << " es " << cuad3 << std::endl;  */
+    //No puedes sacar raiz de un binario    
 
 //char 
         
