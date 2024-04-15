@@ -13,7 +13,7 @@ int main()
  //Tipo de dato + Nombre de la variable + Declaracion Inicial
  
 //bool    
- /*     bool bandera = false; //bool es una variable binaria, asi que puede ser true or false (1/0)
+        bool bandera = false; //bool es una variable binaria, asi que puede ser true or false (1/0)
         bool bandera2= true;
 
 //Imprimimos el valor de la bandera 
@@ -73,13 +73,13 @@ int main()
         std::cout << Saludo << std::endl;
         std::cout << "Saludame " << std::endl;
         std::cin >> Saludo;
-        std::cout << Saludo << std::endl;     */
+        std::cout << Saludo << std::endl;     
 
 
 //Operaciones aritmeticas 
 
 //float 
- /*     float factor1 = 0;
+        float factor1 = 0;
         float factor2 = 0; 
         
 
@@ -119,13 +119,13 @@ int main()
         std::cin >> factor1;
         float cuad1 = sqrt(factor1);
         std::cout << "La Raiz Cuadrada de " << factor1 << " es " << cuad1 << std::endl;
-        */
+        
 
 
 
 //int
 
-/*
+
         short int factor3 = 0;
         short int factor4 = 0;
 
@@ -229,7 +229,7 @@ char factor7 = 'x', factor8 = 'y', space1 = ' ', factor9 = 'A', factor10 = 9, fa
         factor8 = sqrt(factor11);
         std::cout << factor7 << space1 << factor8 << std::endl;
 
-        */
+        
 
 //string
 
