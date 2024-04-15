@@ -12,9 +12,20 @@ int main()
 	std::cin >> num1;
 	std::cin >> num2;
 
-		
-
-
-
+	if (num1 == num2)
+	{
+		std::cout << "Los numeros son iguales" << std::endl;
+	}
+	else
+	{
+		if (num1 > num2)
+		{
+			std::cout << num1 << " Es mayor que " << num2 << std::endl;
+		}
+		else
+		{
+			std::cout << num2 << " Es mayor que " << num1 << std::endl;
+		}
+	}
 }
 
