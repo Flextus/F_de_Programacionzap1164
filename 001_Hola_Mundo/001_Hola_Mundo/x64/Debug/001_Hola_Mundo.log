@@ -1,0 +1,6 @@
+﻿  001_Hola_Mundo.cpp
+C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\001_Hola_Mundo\001_Hola_Mundo.cpp(162,19): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\001_Hola_Mundo\001_Hola_Mundo.cpp(167,17): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\001_Hola_Mundo\001_Hola_Mundo.cpp(202,20): warning C4804: '/': uso no seguro del tipo 'bool' en la operación
+C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\001_Hola_Mundo\001_Hola_Mundo.cpp(229,19): warning C4244: '=': conversión de 'double' a 'char'; posible pérdida de datos
+  001_Hola_Mundo.vcxproj -> C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\001_Hola_Mundo\x64\Debug\001_Hola_Mundo.exe
