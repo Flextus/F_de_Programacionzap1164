@@ -8,10 +8,10 @@
 int main()
 {
 setlocale(LC_ALL, "es_MX.UTF-8");
-std::string NombreApellido = "a", EmpresadeSeguro = "a";
+std::string NombreApellido, EmpresadeSeguro;
 bool alcohol = 0, tabaco = 0, drogas = 0;
 short int edad = 0, dedos = 0;
-float altura = 0, masa = 0;
+float altura = 0, masa = 0, imc = 0;
 char MoF = 'a';
 
 
@@ -40,7 +40,69 @@ char MoF = 'a';
     std::cout << "Te Drogas? \n";
         std::cin >> drogas;
 
-    std::cout << "Hola"<<NombreApellido<<
+    std::cout << "Hola " << NombreApellido <<" Sus Resultados nos indican que"<< std::endl;
+    imc = ((masa) / (altura * altura));
+    std::cout << "Su IMC es " << imc << std::endl;
+        if (MoF == true)
+        {
+            if (imc > 24.9)
+            {
+                std::cout << "Se le recetara una dieta y plan de ejercicio por su sobrepeso" << std::endl;
+            }
+            else
+            {
+                if (imc < 19.8)
+                {
+                    std::cout << "Se le recetara una dieta para ganar peso saludablemente" << std::endl;
+                }
+            }
+        }
+        else 
+        {
+            if (imc > 24.9)
+            { 
+                std::cout << "Se le recetara una dieta y plan de ejercicio por su sobrepeso" << std::endl;
+            }
+            else
+            {
+                if (imc < 17.3)
+                {
+                    std::cout << "Se le recetara una dieta para ganar peso saludablemente" << std::endl;
+                }
+            }
+        }
+    if (dedos>10)
+    {
+        if (alcohol == true)
+        {
+            std::cout << "Usted claramente esta borracho" << std::endl;
+        }
+        else
+        {
+            if (drogas == true)
+            {
+                std::cout << "Usted claramente esta drogado" << std::endl;
+            }
+            else
+            {
+                std::cout << "Usted claramente no sabe contar" << std::endl;
+            }
+        }
+    }
+    if (tabaco == true)
+    {
+        std::cout << "Le recomiendo dejar de fumar por su propio bien" << std::endl;
+    }
+    std::cout << "Nos pondremos en contacto con " << EmpresadeSeguro << " para los costos del tratamiento\n";
+    std::cout<< "Que tenga un buen dia";
+            
+        
+
+            
+
+
+
+
 
 
 
