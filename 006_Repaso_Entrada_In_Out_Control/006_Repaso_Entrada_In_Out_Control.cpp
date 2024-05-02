@@ -4,14 +4,16 @@
 #include <iostream>
 #include <string>
 #include <locale>
+#include <thread>   
+#include <chrono>   
 
 int main()
 {
 std::string email, pass, usename;
-short int menu = 0, edad = 0, conf = 0;
+short int menu = 0, edad = 0, conf = 0, delay = 3;
 setlocale(LC_ALL, "es_MX.UTF-8");
 
-
+std::cout << "Tus credenciales de acceso son albiondemobeta@hotmail.com y demo123\n";
     std::cout << "\n"; 
     std::cout << "Bienvenido a Albion Online 2: Electric Boogalo" << std::endl;
     std::cout << "\n";
@@ -23,9 +25,10 @@ setlocale(LC_ALL, "es_MX.UTF-8");
     std::cout << "\tContraseña" << std::endl;
         std::cin >> pass;
     if (email=="albiondemobeta@hotmail.com")
-    {   if (pass=="demo123")
+    {
+        if (pass=="demo123")
         {
-        std::cout << "Para continuar, seleccione un nombre de usuario" << std::endl;
+        std::cout << "Para continuar, ingrese un nombre de usuario" << std::endl;
         std::cin.ignore();//Se usa para limpiar el buffer de entrada de datos, no siempre es necesario pero si cuando el codigo no funciona 
         std::getline(std::cin, usename);
         std::cout << "Hola " << usename<<std::endl;
@@ -35,6 +38,7 @@ setlocale(LC_ALL, "es_MX.UTF-8");
             {
                 std::cout << "Aquí no es la choza de los pequeñines." << std::endl;
             }
+            std::this_thread::sleep_for(std::chrono::seconds(delay));
     system("cls");
         std::cout << "Cargando..." << std::endl;
         std::cout << "...";
@@ -131,12 +135,13 @@ setlocale(LC_ALL, "es_MX.UTF-8");
             }
 
         }
+        else
+        {
+            std::cout << "Información de Inicio de Sesión Incorrecta" << std::endl;
+        }
     }
     else
-        {
         std::cout << "Información de Inicio de Sesión Incorrecta" << std::endl;
-        
-        }
 
 
 
