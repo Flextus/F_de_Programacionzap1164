@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\007_Decisiones\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CB580F54-3DE5-46AC-843E-061FB036DF39}|007_Decisiones.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\007_Decisiones\\007_Decisiones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CB580F54-3DE5-46AC-843E-061FB036DF39}|007_Decisiones.vcxproj|solutionrelative:007_Decisiones.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "007_Decisiones.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\007_Decisiones\\007_Decisiones.cpp",
+              "RelativeDocumentMoniker": "007_Decisiones.cpp",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\007_Decisiones\\007_Decisiones.cpp",
+              "RelativeToolTip": "007_Decisiones.cpp",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAADAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T21:41:01.176Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
