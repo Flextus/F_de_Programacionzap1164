@@ -8,20 +8,20 @@
 
 int main()
 {
-float pla = 0, king = 0, dir = 0, torn = 0, gru=0; 
-short int calc = 0, delay = 2, gru1 = 0, gru2 = 0, gru3 = 0, modul=0;
+
+float pla = 0, king = 0, dir = 0, torn = 0; 
+short int calc = 0, delay = 2, modpla = 0;
+
 
 	start:
 	std::cout << "Ingrese el numero de Combatientes divisible por 4\n";
 	std::cout << "Nota: Solo pueden participar combatientes enteros, lisiados o miembros no contaran para el calculo\n";
 	std::cin >> pla;
-		gru1 = floor(pla);
-		if (gru1 % 4!=0);
-		{
-			std::cout << "Numero no valido, ingresa un numero divisible por 4\n";
-			goto start;
-		}
-	std::cout << "El numero de Combatientes es " << floor(pla) << std::endl;
+
+	modpla = floor(pla);
+		if ((modpla%4)!=0)
+
+	std::cout << "El numero de Combatientes es " << modpla << std::endl;
 	std::this_thread::sleep_for(std::chrono::seconds(delay));
 		system("cls");
 
@@ -32,7 +32,8 @@ short int calc = 0, delay = 2, gru1 = 0, gru2 = 0, gru3 = 0, modul=0;
 	std::cout << "2.-Combate Directo\n";
 	std::cout << "3.-Torneo\n";
 
-	
+	//(x=(n/4)*6)
+	//tot=x+(x-1)
 
 	std::cin >> calc;
 
@@ -49,10 +50,8 @@ short int calc = 0, delay = 2, gru1 = 0, gru2 = 0, gru3 = 0, modul=0;
 		break;
 
 	case 3:
-		gru = (gru1 / 4);
-		gru2 = gru * 16;
-		gru3 = gru2 + (gru1 % 4);
-		//torn = 2 *( (floor(pla)) - 1);
+
+
 		std::cout << "En Torneo se necesitan " << torn << " combates \n";
 		break;
 
