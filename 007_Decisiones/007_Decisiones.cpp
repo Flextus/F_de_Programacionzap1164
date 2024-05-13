@@ -10,17 +10,16 @@ int main()
 {
 
 float pla = 0, king = 0, dir = 0, torn = 0; 
-short int calc = 0, delay = 2, modpla = 0;
+short int calc = 0, delay = 2, modpla = 0, ste1 = 0, ste2 = 0;
 
 
-	start:
 	std::cout << "Ingrese el numero de Combatientes divisible por 4\n";
 	std::cout << "Nota: Solo pueden participar combatientes enteros, lisiados o miembros no contaran para el calculo\n";
 	std::cin >> pla;
 
 	modpla = floor(pla);
-		if ((modpla%4)!=0)
-
+if ((modpla%4)==0)
+	{ 
 	std::cout << "El numero de Combatientes es " << modpla << std::endl;
 	std::this_thread::sleep_for(std::chrono::seconds(delay));
 		system("cls");
@@ -40,18 +39,19 @@ short int calc = 0, delay = 2, modpla = 0;
 	switch (calc)
 	{
 	case 1:
-		king = floor(pla) - 1;
+		king = modpla - 1;
 		std::cout << "En Royal Rumble se necesitan " << king << " combates\n";
 		break;
 
 	case 2:
-		dir = floor(pla) - 1;
+		dir = modpla - 1;
 		std::cout << "En Combate Directo se necesitan " << dir << " combates \n";
 		break;
 
 	case 3:
-
-
+		ste1 = modpla / 4;
+		ste2 = ste1 * 6;
+		torn = ste2 + (modpla - 1);
 		std::cout << "En Torneo se necesitan " << torn << " combates \n";
 		break;
 
@@ -65,6 +65,7 @@ short int calc = 0, delay = 2, modpla = 0;
 		
 	}
 
+	}
 
 
 
