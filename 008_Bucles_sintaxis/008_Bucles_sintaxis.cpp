@@ -15,6 +15,7 @@ short int delay = 1, delay2 = 2;
 		while (nameg)
 		{
 			std::cout << "Your name is Geovanni Georgio?" << std::endl;
+			std::cout << "Usa 1 para si y 0 para No" << std::endl;
 			std::cin >> nameg;
 
 		}
