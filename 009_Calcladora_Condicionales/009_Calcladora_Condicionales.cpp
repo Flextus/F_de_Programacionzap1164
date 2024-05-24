@@ -144,6 +144,13 @@ float num1 = 0, num2 = 0;
 
 					std::cin >> salida;
 					break;
+
+
+			default: 
+				std::cout << "Ingrese un valor valido" << std::endl;
+				break;
+
+
 			}
 	}
 
