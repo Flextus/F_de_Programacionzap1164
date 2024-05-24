@@ -35,31 +35,52 @@ short int menu1 = 0, delay = 2, salida = 0;
 					std::cin >> num2;
 				
 				std::cout << num1 + num2;
-			num1 = 0, num2 = 0;
+				num1 = 0, num2 = 0;
 
 			std::cout << "Para Volver al Menu Principal, Pulsa 0" << std::endl;
-			std::cin >> salida;
+				std::cin >> salida;
 			break;
 
 
 		case 2: std::cout << "2)Resta\n";
-			std::cout << "Ingresa el primer numero";
-			std::cin >> num1;
-			std::cout << "Ingresa el segundo numero";
-			std::cin >> num2;
-			num1 = 0, num2 = 0;
+				std::cout << "Ingresa el primer numero";
+					std::cin >> num1;
+				std::cout << "Ingresa el segundo numero";
+					std::cin >> num2;
+
+				std::cout << num1 - num2;
+				num1 = 0, num2 = 0;
+
+			std::cout << "Para Volver al Menu Principal, Pulsa 0" << std::endl;
+				std::cin >> salida;
+			break;
+
+
 		case 3: std::cout << "3)Producto\n";
-			std::cout << "Ingresa el primer numero";
-			std::cin >> num1;
-			std::cout << "Ingresa el segundo numero";
-			std::cin >> num2;
-			num1 = 0, num2 = 0;
+				std::cout << "Ingresa el primer numero";
+					std::cin >> num1;
+				std::cout << "Ingresa el segundo numero";
+					std::cin >> num2;
+
+				std::cout << num1 * num2;
+				num1 = 0, num2 = 0;
+
+			std::cout << "Para Volver al Menu Principal, Pulsa 0" << std::endl;
+				std::cin >> salida;
+			break;
+
+
 		case 4: std::cout << "4)Division\n";
-			std::cout << "Ingresa el primer numero";
-			std::cin >> num1;
-			std::cout << "Ingresa el segundo numero";
-			std::cin >> num2;
-			num1 = 0, num2 = 0;
+				std::cout << "Ingresa el primer numero";
+					std::cin >> num1;
+				std::cout << "Ingresa el segundo numero";
+					std::cin >> num2;
+
+				std::cout << num1 / num2;
+				num1 = 0, num2 = 0;
+
+			std::cout << "Para Volver al Menu Principal, Pulsa 0" << std::endl;
+			std::cin >> salida;
 		case 5: std::cout << "5)Valor Absoluto\n";
 	
 		case 6: std::cout << "6)Que numero es mas grande?\n";
