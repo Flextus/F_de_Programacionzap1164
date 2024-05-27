@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\",
+  "WorkspaceRootPath": "C:\\Users\\benja\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CEDA0228-E30D-49C7-8AFB-B67A8D6A405D}|012_Vidas.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\012_Vidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{CEDA0228-E30D-49C7-8AFB-B67A8D6A405D}|012_Vidas.vcxproj|C:\\Users\\benja\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\012_Vidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{CEDA0228-E30D-49C7-8AFB-B67A8D6A405D}|012_Vidas.vcxproj|solutionrelative:012_Vidas.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "012_Vidas.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\012_Vidas.cpp",
+              "DocumentMoniker": "C:\\Users\\benja\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\012_Vidas.cpp",
               "RelativeDocumentMoniker": "012_Vidas.cpp",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\012_Vidas.cpp",
+              "ToolTip": "C:\\Users\\benja\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\012_Vidas\\012_Vidas.cpp",
               "RelativeToolTip": "012_Vidas.cpp",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAB0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-27T11:21:26.009Z",
               "EditorCaption": ""

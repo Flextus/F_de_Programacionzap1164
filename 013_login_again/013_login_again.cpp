@@ -15,7 +15,7 @@ int main()
 		std::cout << "Hola, ingresa tu clave de Acceso" << std::endl;
 		std::cin >> pass;
 
-	} while (pass == "hola123");
+	} while (pass != "hola123");
 
 
 
