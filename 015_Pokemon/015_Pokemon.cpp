@@ -2,11 +2,13 @@
 //
 
 #include <iostream>
+#include <thread>   
+#include <chrono>  
 
 int main()
 {
 	int poke = 0, machamp = 100, bidoof = 100, pelea = 0;
-	int	ataque = 0, bidoofenem = 100;
+	int	ataque = 0, bidoofenem = 100, delay = 1, delay3 = 3;
 
 	std::cout << "Bienvenido a la beta de Showdown 2" << std::endl;
 	std::cout << "Selecciona tu Pokemon usando los numeros de las opciones" << std::endl;
@@ -17,6 +19,8 @@ int main()
 	std::cout << "Tipo: Normal\t HP:100\n";
 	std::cout << "\n";
 	std::cin >> poke;
+	std::this_thread::sleep_for(std::chrono::seconds(delay));
+	system("cls");
 
 	switch (poke)
 	{
@@ -45,12 +49,16 @@ int main()
 					std::cout << "El Bidoof Salvaje tiene " << bidoofenem << " puntos de vida restantes\n",
 						machamp = machamp - 15;
 					std::cout << "Tu Machamp tiene  " << machamp << " puntos de vida restantes\n";
+						std::this_thread::sleep_for(std::chrono::seconds(delay3));
+						system("cls");
 					break;
 
 				case 2:
 					std::cout << "Te has protegido!\n";
 					std::cout << "El Bidoof Salvaje tiene " << bidoofenem << " puntos de vida restantes\n";
 					std::cout << "Tu Machamp tiene " << machamp << " puntos de vida restantes\n";
+					std::this_thread::sleep_for(std::chrono::seconds(delay3));
+					system("cls");
 					break;
 
 				default:
@@ -68,7 +76,7 @@ int main()
 				break;
 			}
 
-		} while (bidoofenem >= 0 && machamp >= 0 || pelea == 1);
+		} while (bidoofenem >= 0 && machamp >= 0 && pelea == 1);
 
 		break;
 
@@ -96,12 +104,16 @@ int main()
 					std::cout << "El Bidoof Salvaje tiene " << bidoofenem << " puntos de vida restantes\n",
 						bidoof = bidoof - 15;
 					std::cout << "Tu Bidoof tiene  " << bidoof << " puntos de vida restantes\n";
+					std::this_thread::sleep_for(std::chrono::seconds(delay3));
+					system("cls");
 					break;
 
 				case 2:
 					std::cout << "Te has protegido!\n";
 					std::cout << "El Bidoof Salvaje tiene " << bidoofenem << " puntos de vida restantes\n";
 					std::cout << "Tu Bidoof tiene " << bidoof << " puntos de vida restantes\n";
+					std::this_thread::sleep_for(std::chrono::seconds(delay3));
+					system("cls");
 					break;
 
 				default:
@@ -119,7 +131,7 @@ int main()
 				break;
 			}
 
-		} while (bidoofenem >= 0 && bidoof >= 0 || pelea == 1);
+		} while (bidoofenem >= 0 && bidoof >= 0 && pelea == 1);
 		break;
 
 	default:
