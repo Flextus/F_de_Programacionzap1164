@@ -1,6 +1,6 @@
 ﻿  007_Decisiones.cpp
-C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(20,16): warning C4244: '=': conversión de 'float' a 'short'; posible pérdida de datos
-C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(42,17): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(47,16): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(54,15): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
-  007_Decisiones.vcxproj -> C:\Users\ALUMNO\Desktop\F_de_Programacionzap1164\007_Decisiones\x64\Debug\007_Decisiones.exe
+C:\Users\benja\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(20,16): warning C4244: '=': conversion from 'float' to 'short', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(42,17): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(47,16): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\benja\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\007_Decisiones\007_Decisiones.cpp(54,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  007_Decisiones.vcxproj -> C:\Users\benja\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\007_Decisiones\x64\Debug\007_Decisiones.exe

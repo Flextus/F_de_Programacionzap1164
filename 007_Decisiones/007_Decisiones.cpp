@@ -51,7 +51,7 @@ if ((modpla%4)==0)
 	case 3:
 		ste1 = modpla / 4;
 		ste2 = ste1 * 6;
-		torn = ste2 + (modpla - 1);
+		torn = ste2 + 3;
 		std::cout << "En Torneo se necesitan " << torn << " combates \n";
 		break;
 
