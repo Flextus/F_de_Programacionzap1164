@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\014_Contadores\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE3359BE-A77D-47F9-8141-28889F58DABA}|014_Contadores.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\014_Contadores\\014_Contadores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FE3359BE-A77D-47F9-8141-28889F58DABA}|014_Contadores.vcxproj|solutionrelative:014_Contadores.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "014_Contadores.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\014_Contadores\\014_Contadores.cpp",
+              "RelativeDocumentMoniker": "014_Contadores.cpp",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\014_Contadores\\014_Contadores.cpp",
+              "RelativeToolTip": "014_Contadores.cpp",
+              "ViewState": "AQIAACgAAAAAAAAAAAA0wDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-27T10:54:14.925Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
