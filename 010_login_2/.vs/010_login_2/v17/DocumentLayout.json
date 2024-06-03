@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\010_login_2\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Documents\\GitHub\\F_de_Programacionzap1164\\010_login_2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{885ABB9C-9E26-4E4B-9DF4-AF91EFB008F5}|010_login_2.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\010_login_2\\010_login_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{885ABB9C-9E26-4E4B-9DF4-AF91EFB008F5}|010_login_2.vcxproj|C:\\Users\\ALUMNO\\Documents\\GitHub\\F_de_Programacionzap1164\\010_login_2\\010_login_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{885ABB9C-9E26-4E4B-9DF4-AF91EFB008F5}|010_login_2.vcxproj|solutionrelative:010_login_2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "010_login_2.cpp",
-              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\010_login_2\\010_login_2.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Documents\\GitHub\\F_de_Programacionzap1164\\010_login_2\\010_login_2.cpp",
               "RelativeDocumentMoniker": "010_login_2.cpp",
-              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\010_login_2\\010_login_2.cpp",
+              "ToolTip": "C:\\Users\\ALUMNO\\Documents\\GitHub\\F_de_Programacionzap1164\\010_login_2\\010_login_2.cpp",
               "RelativeToolTip": "010_login_2.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAwD8AAAATAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAwBUAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-27T14:09:21.205Z",
               "EditorCaption": ""
