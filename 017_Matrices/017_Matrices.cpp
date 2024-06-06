@@ -3,9 +3,11 @@
 
 #include <iostream>
 #include <random>
+#include<time.h>
 
 int main()
 {
+	srand(time(NULL));
 	
 	/*
 	int edades[3][2] = { (1,2),(9,8),(14,21) };
@@ -44,8 +46,8 @@ int main()
 			{
 				for (int j1 = 0; j1 < 3; j1++)
 				{
-					std::cout << "["<<i1<<"],["<<j1<<"]" << std::endl;
 					mat1[i1][j1] = rand() % 9;
+					std::cout << "pos: [" << i1 <<","<<j1<< "]= "<< mat1[i1][j1] << std::endl;
 				}
 			}
 
@@ -70,6 +72,7 @@ int main()
 				for (int j2 = 0; j2 < 5; j2++)
 				{
 					mat2[i2][j2] = rand() % 9;
+					std::cout << "pos: [" << i2 << "," << j2 << "]= " << mat2[i2][j2] << std::endl;
 				}
 			}
 
@@ -94,6 +97,7 @@ int main()
 				for (int j3 = 0; j3 < 10; j3++)
 				{
 					mat3[i3][j3] = rand() % 9;
+					std::cout << "pos: [" << i3 << "," << j3 << "]= " << mat3[i3][j3] << std::endl;
 				}
 			}
 
