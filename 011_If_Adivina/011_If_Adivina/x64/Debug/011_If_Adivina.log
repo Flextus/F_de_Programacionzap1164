@@ -1,2 +1,3 @@
 ﻿  011_If_Adivina.cpp
-  011_If_Adivina.vcxproj -> C:\Users\benja\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\011_If_Adivina\x64\Debug\011_If_Adivina.exe
+C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\011_If_Adivina\011_If_Adivina.cpp(5,85): warning C4101: 'val1': unreferenced local variable
+  011_If_Adivina.vcxproj -> C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\011_If_Adivina\x64\Debug\011_If_Adivina.exe
