@@ -1,76 +1,49 @@
+
+
 #include <iostream>
-#include <random>
-#include<time.h>
+
+void Llenar_Matriz(int** matriz, int filas, int columnas)
+{
+    //Llenar la matriz de 0
+    for (int i = 0; i < filas; i++)
+    {
+        for (int j = 0; j < columnas; j++)
+        {
+            matriz[i][j] = 0;
+            std::cout << "|" << matriz[i][j] << "|";
+        }
+        std::cout << std::endl;
+    }
+}
+
+
 
 int main()
 {
-	int mat1[2][3], inus1 = 0;
-	srand(time(NULL));
+    //Incorrecto no es memoria dinamica.
+    /*
+    int matriz[100][100];//Esto es memoria estatica.
+    int filas;
+    int columnas;
+    std::cout << "Cuantas filas y cuantas columnas\n";
+    std::cin >> filas >> columnas;
+    */
+    int filas = 0, columnas = 0;
+    std::cout << "Ingresa el numero de Filas: ";
+    std::cin >> filas;
+    std::cout << "\nIngresa el numero de Columnas: ";
+    std::cin >> columnas;
+    //Crear la memoria dinamica
+    int** matriz = new int* [filas];
+    for (int i = 0; i < filas; i++)
+    {
+        matriz[i] = new int[columnas];
+    }
+    //Asignar valores a la matriz y mostrarla
+    Llenar_Matriz(matriz, filas, columnas);
 
-	for (int i1 = 0; i1 < 2; i1++)
-	{
-		for (int j1 = 0; j1 < 3; j1++)
-		{
-			std::cout << "Ingresa el valor de la posicion" << "[" << i1 << "," << j1 << "]" << std::endl;
-			std::cin >> inus1;
-			mat1[i1][j1] = inus1;
-		}
-	}
-	for (int i1 = 0; i1 < 2; i1++)
-	{
-		for (int j1 = 0; j1 < 3; j1++)
-		{
-			std::cout << "[" << mat1[i1][j1] << "]";
-		}
-		std::cout << "" << std::endl;
-	}
-
-	//Memoria Dinamica
-
-	int x1 = 0, y1 = 0, inus2;
-	int* x1 = NULL;
-	int* y1 = NULL;
-
-	std::cout << "Ingresa la primer dimesion de la matriz" << std::endl;
-	std::cin >> x1;
-
-
-	std::cout << "Ingresa la segunda dimesion de la matriz" << std::endl;
-	std::cin >> y1;
-
-
-
-	int mat2[*x1][*y1];
-
-	for (int i2 = 0; i2 < x1; i2++)
-	{
-		for (int j2 = 0; j2 < y2; j2++)
-		{
-
-			if (x1 > 3 || y1 > 3)
-			{
-				mat2[i2][j2] = rand() % 9;
-			}
-			else
-			{
-				std::cout << "Ingresa el valor de la posicion" << "[" << i1 << "," << j1 << "]" << std::endl;
-				std::cin >> inus2;
-				mat1[i1][j1] = inus2;
-			}
-
-		}
-	}
-	for (int i2 = 0; i2 < x1; i2++)
-	{
-		for (int j2 = 0; j2 < y1; j2++)
-		{
-			std::cout << "[" << mat1[i2][j2] << "]";
-		}
-		std::cout << "" << std::endl;
-	}
-
-
-
-
+    std::cout << "Vamos a ver la matriz antes de borrar " << matriz << std::endl;
+    delete[] matriz;
+    matriz = NULL;
+    std::cout << "Vamos a ver la matriz " << matriz << std::endl;
 }
-
