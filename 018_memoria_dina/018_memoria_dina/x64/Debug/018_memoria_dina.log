@@ -1,3 +1,3 @@
 ﻿  018_memoria_dina.cpp
-C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\018_memoria_dina\018_memoria_dina.cpp(14,38): warning C4101: 'matriz': unreferenced local variable
+C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\018_memoria_dina\018_memoria_dina.cpp(7,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   018_memoria_dina.vcxproj -> C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\018_memoria_dina\x64\Debug\018_memoria_dina.exe
