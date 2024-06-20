@@ -29,19 +29,19 @@ case 1:
 	{
 		for (int i1 = 0; i1 < 2; i1++)
 		{
-		for (int j1 = 0; j1 < 3; j1++)
-		{
-			std::cout << "Ingresa el valor de la posicion" << "[" << i1 << "," << j1 << "]" << std::endl;
-			std::cin >> valmat;
-			mat[i1][j1] = valmat;
-		}
+			for (int j1 = 0; j1 < 3; j1++)
+			{
+				std::cout << "Ingresa el valor de la posicion" << "[" << i1 << "," << j1 << "]" << std::endl;
+				std::cin >> valmat;
+				mat[i1][j1] = valmat;
+			}
 		}
 		for (int i2 = 0; i2 < 2; i2++)
 		{
-		for (int j2 = 0; j2 < 3; j2++)
-		{
-			std::cout << "[" << mat[i2][j2] << "]";
-		}
+			for (int j2 = 0; j2 < 3; j2++)
+			{
+				std::cout << "[" << mat[i2][j2] << "]";
+			}
 			std::cout << "" << std::endl;
 		}
 		std::cout << "1 para repetir, 0 next\n";
@@ -53,6 +53,11 @@ case 1:
 case 2:
 
 	int** matriz = new int* [x];
+	for (int i = 0; i > x; i++)
+	{
+		matriz[i] = new int[y];
+	}
+
 
 
 
