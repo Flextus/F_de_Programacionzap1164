@@ -5,18 +5,23 @@ class Body
 {
 public:
     std::string part;
-    int numberof;
+    std::string numberof;
     Body* next;
 };
 
-void print()
+void print(Body* n)
 {
-
+    while (n != NULL)
+    {
+        std::cout << "Esta parte se llama " << n->part << " y tenemos " << n->numberof << " de ella" << std::endl;
+        n = n->next;
+    }
 }
 
 
 int main()
 {
+   
     Body* one = NULL;
     Body* two = NULL;
     Body* three = NULL;
@@ -30,12 +35,6 @@ int main()
     four = new Body();
     five = new Body();
     six = new Body();
-
-    std::cout << sizeof(Body) << std::endl;
-    std::cout << sizeof(one) << std::endl;
-    std::cout << sizeof(six) << std::endl;
-    std::cout << (sizeof(Body) / sizeof(six)) << std::endl;
-    int size1 = (sizeof(Body) / sizeof(one));
 
     std::cout << "Ingresa la primer parte del cuerpo\n";
     std::cin >> one->part;
@@ -67,6 +66,9 @@ int main()
     std::cout << "Cuantas tienes?\n";
     std::cin >> six->numberof;   
     six->next = NULL;
+    
+    print(one);
 
 }
+
 
