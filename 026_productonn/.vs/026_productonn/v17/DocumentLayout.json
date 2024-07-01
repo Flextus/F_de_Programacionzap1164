@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\026_productonn\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1FD707D9-D816-4ED3-89A2-BCB179EDEE07}|026_productonn.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\026_productonn\\026_productonn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1FD707D9-D816-4ED3-89A2-BCB179EDEE07}|026_productonn.vcxproj|solutionrelative:026_productonn.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "026_productonn.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\026_productonn\\026_productonn.cpp",
+              "RelativeDocumentMoniker": "026_productonn.cpp",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\026_productonn\\026_productonn.cpp",
+              "RelativeToolTip": "026_productonn.cpp",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAzwDgAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-01T16:04:27.515Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
