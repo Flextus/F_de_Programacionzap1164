@@ -1,0 +1,3 @@
+﻿  024_palindromos.cpp
+C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\024_palindromos\024_palindromos.cpp(34,46): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  024_palindromos.vcxproj -> C:\Users\PC\OneDrive\Documentos\GitHub\F_de_Programacionzap1164\024_palindromos\x64\Debug\024_palindromos.exe
