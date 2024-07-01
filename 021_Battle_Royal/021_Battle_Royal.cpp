@@ -163,8 +163,9 @@ void sort(Player players[20])
 }
 // acomoda los players
 
-void Tabla2(Player players[20])
+void Tablatack(Player players[20])
 {
+	std::cout << "Ganador p/Ataque\n";
 	std::cout << std::left << std::setw(10) << "ID";
 	std::cout << std::left << std::setw(10) << "Player Attack" << std::endl;
 
@@ -190,6 +191,6 @@ int main()
 	Tabla(Players);
 	comptoatack(Players);
 	sort(Players);
-	Tabla2(Players);
+	Tablatack(Players);
 	std::cout << "El jugador " << Players[0].id << " es el ganador" << std::endl;
 }

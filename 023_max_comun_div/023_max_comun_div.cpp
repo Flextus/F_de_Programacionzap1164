@@ -53,8 +53,6 @@ do
     int resultado = maxcd(num1, num2);
 
     std::cout << "El Maximo comun divisor de " << num1 << " y " << num2 << " es: " << resultado << std::endl;
-
-    return 0;
     std::cout << "Ingresa 1 para repetir y 0 para terminar la ejecucion" << std::endl;
     std::cin >> ch2;
 } while (ch2);
