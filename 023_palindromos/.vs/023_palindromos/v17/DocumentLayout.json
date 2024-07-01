@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\023_palindromos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{86F30C40-B6CB-4BBA-842E-F2D3E3D06D1C}|023_palindromos.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\023_palindromos\\023_palindromos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{86F30C40-B6CB-4BBA-842E-F2D3E3D06D1C}|023_palindromos.vcxproj|solutionrelative:023_palindromos.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "023_palindromos.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\023_palindromos\\023_palindromos.cpp",
+              "RelativeDocumentMoniker": "023_palindromos.cpp",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\023_palindromos\\023_palindromos.cpp",
+              "RelativeToolTip": "023_palindromos.cpp",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAABgAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-01T15:16:11.235Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
