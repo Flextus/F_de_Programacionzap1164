@@ -154,7 +154,111 @@ void comptoatack(Player players[20])
 }
 //compara las estadisticas de cada jugador y las muestra
 
-void sort(Player players[20]) 
+void sortHP(Player players[20])
+{
+	std::sort(players, players + 20, [](const Player& a, const Player& b)
+		{
+			return a.hp > b.hp;
+		});
+}
+
+void Tablahp(Player players[20])
+{
+	std::cout << "Ganador p/Hp\n";
+	std::cout << std::left << std::setw(10) << "ID";
+	std::cout << std::left << std::setw(10) << "Player HP" << std::endl;
+
+	std::cout << std::string(23, '-') << std::endl;
+
+	for (int i = 0; i < 20; i++)
+	{
+		std::cout << std::left << std::setw(10) << players[i].id;
+		std::cout << std::left << std::setw(10) << players[i].hp << std::endl;
+	}
+	std::cout << "\n";
+	std::cout << "\n";
+	std::cout << "\n";
+}
+
+void sortSTR(Player players[20])
+{
+	std::sort(players, players + 20, [](const Player& a, const Player& b)
+		{
+			return a.str > b.str;
+		});
+}
+
+void TablaSTR(Player players[20])
+{
+	std::cout << "Ganador p/Fuerza\n";
+	std::cout << std::left << std::setw(10) << "ID";
+	std::cout << std::left << std::setw(10) << "Player STR" << std::endl;
+
+	std::cout << std::string(23, '-') << std::endl;
+
+	for (int i = 0; i < 20; i++)
+	{
+		std::cout << std::left << std::setw(10) << players[i].id;
+		std::cout << std::left << std::setw(10) << players[i].str << std::endl;
+	}
+	std::cout << "\n";
+	std::cout << "\n";
+	std::cout << "\n";
+}
+
+void sortDEX(Player players[20])
+{
+	std::sort(players, players + 20, [](const Player& a, const Player& b)
+		{
+			return a.dex > b.dex;
+		});
+}
+
+void TablaDEX(Player players[20])
+{
+	std::cout << "Ganador p/Destreza\n";
+	std::cout << std::left << std::setw(10) << "ID";
+	std::cout << std::left << std::setw(10) << "Player DEX" << std::endl;
+
+	std::cout << std::string(23, '-') << std::endl;
+
+	for (int i = 0; i < 20; i++)
+	{
+		std::cout << std::left << std::setw(10) << players[i].id;
+		std::cout << std::left << std::setw(10) << players[i].dex << std::endl;
+	}
+	std::cout << "\n";
+	std::cout << "\n";
+	std::cout << "\n";
+}
+
+void sortINTEL(Player players[20])
+{
+	std::sort(players, players + 20, [](const Player& a, const Player& b)
+		{
+			return a.intel > b.intel;
+		});
+}
+
+void TablaINTEL(Player players[20])
+{
+	std::cout << "Ganador p/Inteligencia\n";
+	std::cout << std::left << std::setw(10) << "ID";
+	std::cout << std::left << std::setw(10) << "Player INTEL" << std::endl;
+
+	std::cout << std::string(23, '-') << std::endl;
+
+	for (int i = 0; i < 20; i++)
+	{
+		std::cout << std::left << std::setw(10) << players[i].id;
+		std::cout << std::left << std::setw(10) << players[i].intel << std::endl;
+	}
+	std::cout << "\n";
+	std::cout << "\n";
+	std::cout << "\n";
+}
+
+void sortAT(Player players[20]) 
 {
 	std::sort(players, players + 20, [](const Player& a, const Player& b) 
 		{
@@ -190,7 +294,14 @@ int main()
 	pwrup(Players);
 	Tabla(Players);
 	comptoatack(Players);
-	sort(Players);
+	sortHP(Players);
+	Tablahp(Players);
+	sortSTR(Players);
+	TablaSTR(Players);
+	sortDEX(Players);
+	TablaDEX(Players);
+	sortINTEL(Players);
+	TablaINTEL(Players);
+	sortAT(Players);
 	Tablatack(Players);
-	std::cout << "El jugador " << Players[0].id << " es el ganador" << std::endl;
 }
