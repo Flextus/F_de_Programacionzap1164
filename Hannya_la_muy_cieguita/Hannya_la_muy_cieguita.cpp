@@ -49,7 +49,7 @@ bool naces()
     std::cout << "En la final de 2013 tu papa te dijo que si ganaba el ame te iba a regalar una baika en tu cumple\n";
     std::cout << "Cabezazo de Moiseeees\n";
     std::cout << "Te emocionas como el piojo\n";
-    std::cout << "Llega tu cumpleaños y ves a tu jefe llegar con una mamalona\n";
+    std::cout << "Llega tu cumpleaÃ±os y ves a tu jefe llegar con una mamalona\n";
     std::cout << "Amarilla como el logo del Ame\n";
     std::cout << "Le pegas un vergo de estampas y la llevas a todos lados\n";
     std::cout << "Olvidaste que vives en EDOMEX\n";
@@ -114,7 +114,7 @@ bool pelea()
     std::cout << "Sin pensarlo dos veces corres a ayudarla\n";
     std::cout << "El pie le sangra\n";
     std::cout << "La sientas en una banqueta y corres en putiza a una farmacia\n";
-    std::cout << "Compras una gasa, algodon y alcohol con los 100 varos que eran pa comprarte unas tostadas de pulpo con doña Ceci\n";
+    std::cout << "Compras una gasa, algodon y alcohol con los 100 varos que eran pa comprarte unas tostadas de pulpo con doÃ±a Ceci\n";
     std::cout << "Sigue alli, al lado lleva un baston chistoso\n";
     std::cout << "Le haces una curacion como dios te da a entender y te das cuenta que no hay nadie como pa pedir ayuda\n";
     std::cout << "Ni taxis nomames si es Edomex\n";
@@ -124,7 +124,7 @@ bool pelea()
     std::cout << "Te cae el 20\n";
     std::cout << "Elinvidente\n";
     std::cout << "Se la pelan caminando\n";
-    std::cout << "Mientras te plática\n";
+    std::cout << "Mientras te plÃ¡tica\n";
     std::cout << "Se llama Hannya\n";
     std::cout << "Parecenombredepayasita\n";
     std::cout << "Se habia perdido\n";
@@ -152,8 +152,8 @@ bool pelea()
     std::cout << "Te mamas un vidrio\n";
     std::cout << "Y el balon era tuyo\n";
     std::cout << "Tsssss\n";
-    std::cout << "Lo recoges a la salida pero la doña de la direccion se cree tu mama y te sermonea media hora\n";
-    std::cout << "Te están rugiendo las tripas y te vas en putiza\n";
+    std::cout << "Lo recoges a la salida pero la doÃ±a de la direccion se cree tu mama y te sermonea media hora\n";
+    std::cout << "Te estÃ¡n rugiendo las tripas y te vas en putiza\n";
     std::cout << "Si no fuera por que sus ojos todos nublados parecen azules ni te dabas cuenta\n";
     std::cout << "Hannya venia sola otra vez, estaba sentada en la banqueta del parque al lado de la tortilleria\n";
     std::cout << "Te reconoce de alguna manera, chance te olio\n";
@@ -163,19 +163,19 @@ bool pelea()
     std::cout << "Le quieres devolver el favor y la llevas a tu casa pa que tu papa le lleve en su tsuru\n";
     std::cout << "Ayperoprimeroquecomatuamiga\n";
     std::cout << "Ese dia tocaba alambre\n";
-    std::cout << "Era curioso ver como comia, tus papas la veian algo sacados de pedo como buscaba sutilmente la comida con las puntas de los dedos y luego hábilmente la ensartaba con el tenedor\n";
+    std::cout << "Era curioso ver como comia, tus papas la veian algo sacados de pedo como buscaba sutilmente la comida con las puntas de los dedos y luego hÃ¡bilmente la ensartaba con el tenedor\n";
     std::cout << "Toda una damita diria tu abuelita enpazdescanse\n";
     std::cout << "Terminan de comer y tu papa la lleva mientras te pones a hacer la tarea\n";
-    std::cout << "Ahora que lo piensas ¿Que hacia hasta alli?\n";
+    std::cout << "Ahora que lo piensas Â¿Que hacia hasta alli?\n";
     std::cout << "Todavia no andaba muy bien, porque salio sola\n";
-    std::cout << "La biografia de Anastacio Bustamante se te hacía distante mientras pensabas en Hannya\n";
-    std::cout << "A pesar de que ella es mayor e invidente había algo que te hacía moverte como titere\n";
-    std::cout << "Te habías enamorado\n";
+    std::cout << "La biografia de Anastacio Bustamante se te hacÃ­a distante mientras pensabas en Hannya\n";
+    std::cout << "A pesar de que ella es mayor e invidente habÃ­a algo que te hacÃ­a moverte como titere\n";
+    std::cout << "Te habÃ­as enamorado\n";
     std::cout << "No le pediste su numero\n";
     std::cout << "No tienes su mail\n";
     std::cout << "Solo sabes donde vive y que a veces te la encuentras en lugares al azar\n";
-    std::cout << "Ese día no dormiste\n";
-    std::cout << "Pasó el tiempo, es el convivio de navidad\n";
+    std::cout << "Ese dÃ­a no dormiste\n";
+    std::cout << "PasÃ³ el tiempo, es el convivio de navidad\n";
     std::cout << "Te quedas pendejeando con tu compa el Woody\n";
     std::cout << "Todos tenemos un compa que le apodamos el Woody\n";
     std::cout << "Salen a jugar maquinitas al local de Don Jeronimo\n";
@@ -186,7 +186,7 @@ bool pelea()
     std::cout << "Soy muy dada a perderme jeje...\n";
     std::cout << "Se sientan a comer un sinparar a una de las mesas del local\n";
     std::cout << "Le gusta salir sola, es todo lo que te dice sobre porque siempre se pierde\n";
-    std::cout << "Solo regresa cuando la encuentras tu, o le da su direccion a algun policía\n";
+    std::cout << "Solo regresa cuando la encuentras tu, o le da su direccion a algun policÃ­a\n";
     std::cout << "En un descuido se arremanga su sueter beige\n";
     std::cout << "Se te hace nudo todo\n";
     std::cout << "Todo el antebrazo, lleno de cicatrices, quemaduras y moretones\n";
@@ -194,7 +194,7 @@ bool pelea()
     std::cout << "Le dices que se vayan pero no quiere\n";
     std::cout << "Solo un poquito mas si?\n";
     std::cout << "Se toma muy despacio su Sprite\n";
-    std::cout << "Van a su casa caminando, ya está mejor del pie\n";
+    std::cout << "Van a su casa caminando, ya estÃ¡ mejor del pie\n";
     std::cout << "Te quedas a cenar pavo con su familia\n";
     std::cout << "Parecia dia de accion de gracias, tu eras el aborigen\n";
     std::cout << "De regreso el papa de Hannya te dice que ella le gusta escaparse porque es indisciplinada\n";
@@ -203,7 +203,7 @@ bool pelea()
     std::cout << "Te revuelves en la cama pensando que hacer, que decir\n";
     std::cout << "Al otro dia le cuentas a tu papa\n";
     std::cout << "No lo reconoces\n";
-    std::cout << "Pues claro hijo, yo también le haría algo asi si hiciera esas cosas\n";
+    std::cout << "Pues claro hijo, yo tambiÃ©n le harÃ­a algo asi si hiciera esas cosas\n";
     std::cout << "Juras que no dijo eso, pero continuaba\n";
     std::cout << "Esas personas son incompletas hijo, deberias dejar de hablarle\n";
     std::cout << "Se te cae un grande\n";
@@ -284,10 +284,10 @@ bool ayudarla()
     std::cout << "La cargas en tu espalda mientras corres\n";
     std::cout << "A donde ir en un mundo donde todos te ven?\n";
     std::cout << "Los brazos te quemaban mientras oian gritos por las calles buscandote\n";
-    std::cout << "La vista se te hacía dobla mientras sentias el peso de Hannya caer sobre ti, desmayandose\n";
-    std::cout << "Una reja entreabierta de un local en obra negra parecía el paraiso\n";
+    std::cout << "La vista se te hacÃ­a dobla mientras sentias el peso de Hannya caer sobre ti, desmayandose\n";
+    std::cout << "Una reja entreabierta de un local en obra negra parecÃ­a el paraiso\n";
     std::cout << "Te colaste dentro en putiza\n";
-    std::cout << "Sentías que ibas a vomitar el higado mientras bajabas a Hannya al piso\n";
+    std::cout << "SentÃ­as que ibas a vomitar el higado mientras bajabas a Hannya al piso\n";
     std::cout << "Le haces una almohada con tu camisa y abres tu cartera de las aguilas\n";
     std::cout << "50 pesos\n";
     std::cout << "Te da impotencia no saber que hacer\n";
@@ -295,7 +295,7 @@ bool ayudarla()
     std::cout << "- Tranquila, no pasa nada. Ni siquiera tu crees eso\n";
     std::cout << "- Nos van a encontrar. Dice muy callada\n";
     std::cout << "- No lo haran, pronto te llevare a un lugar donde no nos encuentra nadie, ni dios.\n";
-    std::cout << "- Cómo sabes que hay un lugar así?\n";
+    std::cout << "- CÃ³mo sabes que hay un lugar asÃ­?\n";
     std::cout << "- No lo se, pero lo encontrare\n";
     std::cout << "- Nunca debiste conocerme,lo siento\n";
     std::cout << "- Si debi, lo siento por no hacer esto antes\n";
@@ -303,7 +303,7 @@ bool ayudarla()
     std::cout << "- Si lo es, no debia permitir que te pasara eso porque yo...yo te quiero mucho\n";
     std::cout << "Se siente muy raro tu corazon, cansancio y nervios, Hannya se queda en silencio\n";
     std::cout << "- Yo...yo tambien siento que me gustas\n";
-    std::cout << "A oscuras, sin ni un ojo que vea, traslúcidas las siluetas, la besaste, es ese verdadero amor que no se ve con los ojos\n";
+    std::cout << "A oscuras, sin ni un ojo que vea, traslÃºcidas las siluetas, la besaste, es ese verdadero amor que no se ve con los ojos\n";
     std::cout << "La ves dormir tranquilamente\n";
     std::cout << "Necesitas sacarla de aqui\n";
     std::cout << "No puedes fallarle\n";
@@ -351,20 +351,20 @@ void navaja()
 {
     std::cout << "Al otro dia compras una navaja\n";
     std::cout << "La dejas dormida y sales a asaltar jurando que es solo para esa vez\n";
-    std::cout << "Juntas 1000 varos, te sabe a mierda el red cola que compraste para quitarte la sed despues de correr de un policía\n";
+    std::cout << "Juntas 1000 varos, te sabe a mierda el red cola que compraste para quitarte la sed despues de correr de un policÃ­a\n";
     std::cout << "Pero por fin podias pagar algun boleto de un camion que los llevara lejos\n";
     std::cout << "Tu tio Alucin, el siempre fue tu mejor amigo, el entenderia\n";
     std::cout << "Salen en putiza, gastas lo necesario para que lleguen bien\n";
     std::cout << "De repente te sientes los bolsillos, te acaban de bolsear\n";
     std::cout << "Solo te alcanza para un boleto\n";
-    std::cout << "Haces dos llamadas, el camión pasa a tu lado\n";
+    std::cout << "Haces dos llamadas, el camiÃ³n pasa a tu lado\n";
     std::cout << "En cuanto tiempo Hannya se dara cuenta que no eres tu quien va a su lado?\n";
     std::cout << "Esperas que el Tio Alucin la reciba y te espere con ella en la terminal\n";
     std::cout << "Y, a tu madre, que acepte tu disculpa\n";
     std::cout << "Te subes de colado en un camion destartalado lleno de gallinas que va para Guanajuato, solo tenias que saltar cuando vieras el letrero de la estacion de Zapopan\n";
     std::cout << "Nadie te dijo que tan alto estaba el escalon\n";
     std::cout << "Tampoco supiste que te pego al suelo\n";
-    std::cout << "Sientes como todos los huesos de tus piernas se hacen polvito de chupa barrita al bajarte a 100 km por hora de un camión de redilas\n";
+    std::cout << "Sientes como todos los huesos de tus piernas se hacen polvito de chupa barrita al bajarte a 100 km por hora de un camiÃ³n de redilas\n";
     std::cout << "Antes de desmayarte ves a tu tio Alucin correr hacia ti, mas atras habia una jovencita\n";
     std::cout << "Quisiste creer que era Hannya\n";
     std::cout << "Todo se pone negro...\n";
@@ -426,28 +426,6 @@ void sigilo()
     std::cout << "FIN\n";
 }
 
-
-/*
-bool comparar(std::string input)
-{
-    input = minus(input);
-
-    if (input == "si")
-    {
-        return true;
-    }
-    else if (input == "no")
-    {
-        return false;
-    }
-    else
-    {
-        std::cerr << "Por favor Ingrese un dato valido\n";
-        exit(EXIT_FAILURE);
-    }
-}
- */
-
 int main()
 {
     titulo();
@@ -494,4 +472,3 @@ int main()
         return 0;
     }
 }
-
