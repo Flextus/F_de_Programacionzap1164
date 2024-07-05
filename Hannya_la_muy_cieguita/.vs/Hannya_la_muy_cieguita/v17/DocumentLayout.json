@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\Hannya_la_muy_cieguita\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4A9DFA37-B136-419E-A884-7BFC3624113A}|Hannya_la_muy_cieguita.vcxproj|C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\Hannya_la_muy_cieguita\\Hannya_la_muy_cieguita.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4A9DFA37-B136-419E-A884-7BFC3624113A}|Hannya_la_muy_cieguita.vcxproj|solutionrelative:Hannya_la_muy_cieguita.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Hannya_la_muy_cieguita.cpp",
+              "DocumentMoniker": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\Hannya_la_muy_cieguita\\Hannya_la_muy_cieguita.cpp",
+              "RelativeDocumentMoniker": "Hannya_la_muy_cieguita.cpp",
+              "ToolTip": "C:\\Users\\PC\\OneDrive\\Documentos\\GitHub\\F_de_Programacionzap1164\\Hannya_la_muy_cieguita\\Hannya_la_muy_cieguita.cpp",
+              "RelativeToolTip": "Hannya_la_muy_cieguita.cpp",
+              "ViewState": "AQIAAJkBAAAAAAAAAAA2wJUBAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-04T18:38:32.234Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
